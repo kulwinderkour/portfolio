@@ -1,6 +1,6 @@
-# Abhishek Swami — Portfolio
+# Kulwinder kour — Portfolio
 
-Personal site for Abhishek Swami: software engineer working across AI workflows,
+Personal site for Kulwinder kour: software engineer working across AI workflows,
 backend systems and the web.
 
 **Next.js 16** (App Router, static export) · **TypeScript** · **Tailwind CSS v4**
@@ -36,16 +36,16 @@ To deploy manually (first-time setup, or debugging the pipeline):
 ```bash
 npm ci
 npm run build
-firebase deploy --only hosting --project abhishek-portfolio-2026
+firebase deploy --only hosting --project kulwinder-portfolio-2026
 ```
 
-Firebase project: **abhishek-portfolio-2026**, on the `amswami9273@gmail.com`
+Firebase project: **kulwinder-portfolio-2026**, on the `kkour8585@gmail.com`
 account. `.firebaserc` pins the default project; `firebase.json` points
 Hosting at `out/` and sets long-lived immutable cache headers on
 `/_next/static/**` and images, while HTML is served `must-revalidate` so a new
 deploy is visible immediately.
 
-The production domain (`abhishekswami.work.gd`) still points at the prior
+The production domain (`kulwinderkour.work.gd`) still points at the prior
 Render deployment until it's explicitly cut over — see the project's own
 notes for that migration step.
 
