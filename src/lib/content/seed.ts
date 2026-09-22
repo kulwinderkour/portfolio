@@ -258,7 +258,7 @@ export const seed: SiteContent = {
       title: "AI & ML Engineering",
       description: "Building and deploying efficient AI systems, from deep learning models and LLM workflows to optimized inference on resource-constrained devices.",
       detail:
-        "I work across deep learning, model optimization, and AI deployment, with a focus on making modern ML models more efficient and practical for real-world environments.\n\nMy work includes deploying and optimizing quantized BERT models for edge devices using techniques such as Post-Training Quantization (PTQ), Quantization-Aware Training (QAT), Knowledge Distillation, LoRA, and QLoRA for parameter-efficient fine-tuning.\n\nI also work with transformer-based architectures, model compression, inference optimization, embeddings, semantic search, RAG pipelines, and LLM-powered applications.",
+        "End-to-end AI engineering — from model optimization and fine-tuning to efficient deployment in real-world environments",
       capabilities: ["RAG Pipelines", "Semantic Search", "LLM Workflows", "Model Quantization", "Edge AI", "Model Deployment"],
       sortOrder: 1,
       published: true,
